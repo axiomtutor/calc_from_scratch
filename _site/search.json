@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "scientific_foundations/aristotle.html",
+    "href": "scientific_foundations/aristotle.html",
+    "title": "False Physics",
+    "section": "",
+    "text": "Our broadest goal is to figure out how the universe works. That is a bit too broad, so for now, we narrow our focus to how physics works."
+  }
+]
