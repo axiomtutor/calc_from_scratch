@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Calculus from Scratch"
+  navbar:
+    left: 
+      - sidebar:foundations
+      - sidebar:const_linear_accel
+      - sidebar:celestial_motion
+  sidebar:
+    - id: foundations
+      title: "Foundations"
+      contents:
+        - scientific_foundations/aristotle.qmd
+    - id: const_linear_accel
+      title: "Linear Acceleration"
+    - id: celestial_motion
+      title: "Celestial Motion"
+
+format:
+  html:
+    theme: default
+    css: styles.css
+    toc: true
+
+
+
