@@ -26,5 +26,12 @@
     "title": "False Physics",
     "section": "",
     "text": "Devise a test to demonstrate that Aristotle’s Hypothesis of Free Fall is wrong.\nHint: A consequence of his hypothesis is that an object always falls at a constant speed (since it has constant weight). Measure the time that it takes an object to fall if you release it from 3 feet off of the ground. Then measure it if you release it from 6 feet.\nSince the speed is constant, then according to the theory, the time that it falls through 6 feet should be twice the time that it falls through 3 feet.\n\n\n\n\n\n\nFill in the free fall algebra\n\n\n\nMathematically prove the principle that we used above.\nMore exactly, suppose an object travels at a constant speed \\(s\\) through a distance \\(d\\), and let \\(t_1\\) be the time elapsed. Then it travels at the same constant speed \\(s\\) through a distance \\(2d\\), and let \\(t_2\\) be the time elapsed on this leg of the trip.\nUsing the relationship “distance equals rate times time” as it is often known in the US, prove that the above implies \\(t_2=2t_1\\).\n\n\n\n\n\n\n\n\nConduct the test\n\n\n\nNow actually drop an object from the two different heights and reflect upon what you found. Drop it from three different heights if you have any doubts.\nIn particular, reflect on all of your concerns about the nature of this test. How could your own test be in error, and what could you do to reduce the error of your test?\nMore philosophically: Could there ever be a test or measurement without any possible error?"
+  },
+  {
+    "objectID": "const_linear_accel/acc.html",
+    "href": "const_linear_accel/acc.html",
+    "title": "The New Free Fall Hypothesis",
+    "section": "",
+    "text": "10,20,30 Set camera"
   }
 ]
