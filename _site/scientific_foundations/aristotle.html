@@ -60,8 +60,9 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
@@ -141,7 +142,17 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#free-fall" id="toc-free-fall" class="nav-link active" data-scroll-target="#free-fall">Free Fall</a>
+  <ul class="collapse">
+  <li><a href="#proving-aristotle-wrong" id="toc-proving-aristotle-wrong" class="nav-link" data-scroll-target="#proving-aristotle-wrong">Proving Aristotle Wrong</a></li>
+  </ul></li>
+  <li><a href="#the-mathematization-of-physics" id="toc-the-mathematization-of-physics" class="nav-link" data-scroll-target="#the-mathematization-of-physics">The Mathematization of Physics</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -163,9 +174,82 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Our broadest goal is to figure out how the universe works. That is a bit too broad, so for now, we narrow our focus to how physics works.</p>
+<section id="free-fall" class="level1">
+<h1>Free Fall</h1>
+<p>Our broadest goal is to figure out how the universe works. But even just thinking of such a massive task is stunning! We have to narrow our focus, at least initially.</p>
+<p>Therefore we will restrict attention to physics for the first several chapters, as this is the easiest thing to study. Even more specifically, we will start by considering gravity, which in fact will be our object of study for at least three chapters.</p>
+<p>Even at that, just what the hell is gravity and how can we study it? It is not visible, so we can only observe its influence on visible, measurable objects. To keep things as simple as possible, imagine holding some object out at shoulder-level and releasing it so that it falls to the ground.</p>
+<p>This is called <strong>free fall</strong>. Technically we could say that there are various forces acting on the object during free fall: most significantly, the force of air resistance. However, we will hope that this and any other forces that might act on the object can be approximated as zero, and not affect our analysis too much.</p>
+<p>So for the first few chapters we will be concerned with understanding free fall. Aristotles hysics It can be hard to know where to get started, so history can give us a convenient and interesting starting point. Aristotle was an ancient Greek philosopher and one of the most important figures in the history of science — in fact he was, perhaps, the most important figure until the Scientific Revolution in the 16th century (which is about 18 centuries after his death!).</p>
+<p>Aristotle claimed that a body in free fall will fall at a speed which is proportionate to its weight. We will call the following hypothesis <strong>Aristotle’s hypothesis of free fall</strong>.</p>
+<div class="callout callout-style-default callout-hyp no-icon callout-titled" title="Aristotle's Hypothesis of Free Fall">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aristotle’s Hypothesis of Free Fall
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A body in free fall will fall at a rate proportionate to its weight.</p>
+</div>
+</div>
+<p>From a modern perspective, this is a hilariously wrong idea! For one thing, we now know that weight does not vary with the speed of free fall in a direct way.</p>
+<p>But besides that, this expression makes it sound as though objects fall at a <em>constant rate</em>! This latter seems immediately, almost tangibly untrue. If you fall from a greater height, you seem to fall <em>faster</em>, not at the same rate as you travel when you start falling. At the very least, the impact is greater and that seems to have something to do with moving faster.</p>
+<p>One can in fact devise a test to show that this theory cannot be right.</p>
+<section id="proving-aristotle-wrong" class="level2">
+<h2 class="anchored" data-anchor-id="proving-aristotle-wrong">Proving Aristotle Wrong</h2>
+<p>Devise a test to demonstrate that Aristotle’s Hypothesis of Free Fall is wrong.</p>
+<p>Hint: A consequence of his hypothesis is that an object always falls at a constant speed (since it has constant weight). Measure the time that it takes an object to fall if you release it from 3 feet off of the ground. Then measure it if you release it from 6 feet.</p>
+<p>Since the speed is constant, then according to the theory, the time that it falls through 6 feet should be twice the time that it falls through 3 feet.</p>
+<div class="callout callout-style-default callout-exer no-icon callout-titled" title="Fill in the free fall algebra">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Fill in the free fall algebra
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Mathematically prove the principle that we used above.</p>
+<p>More exactly, suppose an object travels at a constant speed <span class="math inline">\(s\)</span> through a distance <span class="math inline">\(d\)</span>, and let <span class="math inline">\(t_1\)</span> be the time elapsed. Then it travels at the same constant speed <span class="math inline">\(s\)</span> through a distance <span class="math inline">\(2d\)</span>, and let <span class="math inline">\(t_2\)</span> be the time elapsed on this leg of the trip.</p>
+<p>Using the relationship “distance equals rate times time” as it is often known in the US, prove that the above implies <span class="math inline">\(t_2=2t_1\)</span>.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-exer no-icon callout-titled" title="Conduct the test">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Conduct the test
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Now actually drop an object from the two different heights and reflect upon what you found. Drop it from three different heights if you have any doubts.</p>
+<p>In particular, reflect on all of your concerns about the nature of this test. How could your own test be in error, and what could you do to reduce the error of your test?</p>
+<p>More philosophically: Could there ever be a test or measurement without any possible error?</p>
+</div>
+</div>
+</section>
+</section>
+<section id="the-mathematization-of-physics" class="level1">
+<h1>The Mathematization of Physics</h1>
+<p>How stupid could Aristotle be? How could this possibly be the start of the noble scientific project! It was incredibly easy to prove that this great intellectual’s theory was wrong.</p>
+<p>Well, you have to realize that you benefit from an entire culture that has inherited the scientific tradition. And that culture was built, in part, by Aristotle.</p>
+<p>There were many philosophers before Aristotle, and you might call some of them scientists or even physicists. Some philosophers had theories, like that the fundamental elements of the world are fire, earth, wind, and water. Other philosophers speculated that all of existence is change. Still other philosophers theorized that there must be some indivisible components of matter, which they called “atoms”.</p>
+<p>But you should notice that none of these theories are mathematical. They don’t lend themselves to specific predictions about what one should observe in any scenarios. Aristotle’s theory is mathematical, and in fact, here is its equation:</p>
+<p><span class="math display">\[
+s=kw
+\]</span> where <span class="math inline">\(s\)</span> is speed, <span class="math inline">\(w\)</span> weight, and <span class="math inline">\(k\)</span> is any constant of proportionality.</p>
+<p>It’s very simple, but until Aristotle, we didn’t even have theories this rigorous! It really makes you appreciate just primitive we were until Aristotle marched us a few steps toward modern science.</p>
+<p>Being mathematical of course doesn’t make it right. But being mathematical does allow more precise predictions. This is precisely why we could so easily test the theory and show it was false. Imagine testing the atomic theory that the process of dividing matter must eventually reach an indivisible particle.</p>
+<p>So although Aristotle’s theory failed, his method of making a mathematical model of physics was more important. In the next several chapters, we will try to find a better mathematical theory of physics.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

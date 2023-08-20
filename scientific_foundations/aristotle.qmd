@@ -2,4 +2,74 @@
 title: "False Physics"
 ---
 
-Our broadest goal is to figure out how the universe works.  That is a bit too broad, so for now, we narrow our focus to how physics works.  
+# Free Fall
+
+Our broadest goal is to figure out how the universe works. But even just thinking of such a massive task is stunning! We have to narrow our focus, at least initially.
+
+Therefore we will restrict attention to physics for the first several chapters, as this is the easiest thing to study. Even more specifically, we will start by considering gravity, which in fact will be our object of study for at least three chapters.
+
+Even at that, just what the hell is gravity and how can we study it? It is not visible, so we can only observe its influence on visible, measurable objects. To keep things as simple as possible, imagine holding some object out at shoulder-level and releasing it so that it falls to the ground.
+
+This is called **free fall**. Technically we could say that there are various forces acting on the object during free fall: most significantly, the force of air resistance. However, we will hope that this and any other forces that might act on the object can be approximated as zero, and not affect our analysis too much.
+
+So for the first few chapters we will be concerned with understanding free fall.
+ Aristotles hysics
+It can be hard to know where to get started, so history can give us a convenient and interesting starting point.  Aristotle was an ancient Greek philosopher and one of the most important figures in the history of science — in fact he was, perhaps, the  most important figure until the Scientific Revolution in the 16th century (which is about 18 centuries after his death!).
+
+Aristotle claimed that a body in free fall will fall at a speed which is proportionate to its weight.  We will call the following hypothesis **Aristotle’s hypothesis of free fall**.
+
+::: {.callout-hyp .callout-note title="Aristotle's Hypothesis of Free Fall"}
+A body in free fall will fall at a rate proportionate to its weight.
+:::
+
+From a modern perspective, this is a hilariously wrong idea!  For one thing, we now know that weight does not vary with the speed of free fall in a direct way.  
+
+But besides that, this expression makes it sound as though objects fall at a *constant rate*!  This latter seems immediately, almost tangibly untrue.  If you fall from a greater height, you seem to fall *faster*, not at the same rate as you travel when you start falling.  At the very least, the impact is greater and that seems to have something to do with moving faster.  
+
+One can in fact devise a test to show that this theory cannot be right.  
+
+## Proving Aristotle Wrong
+Devise a test to demonstrate that Aristotle’s Hypothesis of Free Fall is wrong.
+
+Hint: A consequence of his hypothesis is that an object always falls at a constant speed (since it has constant weight).  Measure the time that it takes an object to fall if you release it from 3 feet off of the ground.  Then measure it if you release it from 6 feet.  
+
+Since the speed is constant, then according to the theory, the time that it falls through 6 feet should be twice the time that it falls through 3 feet. 
+
+::: {.callout-exer .callout-note title="Fill in the free fall algebra"}
+Mathematically prove the principle that we used above.
+
+More exactly, suppose an object travels at a constant speed $s$ through a distance $d$, and let $t_1$ be the time elapsed.  Then it travels at the same constant speed $s$ through a distance $2d$, and let $t_2$ be the time elapsed on this leg of the trip.
+
+Using the relationship "distance equals rate times time" as it is often known in the US, prove that the above implies $t_2=2t_1$.
+:::
+
+::: {.callout-exer .callout-note title="Conduct the test"}
+Now actually drop an object from the two different heights and reflect upon what you found.  Drop it from three different heights if you have any doubts.  
+
+In particular, reflect on all of your concerns about the nature of this test.  How could your own test be in error, and what could you do to reduce the error of your test?
+
+More philosophically: Could there ever be a test or measurement without any possible error?
+:::
+
+# The Mathematization of Physics
+
+How stupid could Aristotle be?  How could this possibly be the start of the noble scientific project!  It was incredibly easy to prove that this great intellectual's theory was wrong.
+
+Well, you have to realize that you benefit from an entire culture that has inherited the scientific tradition.  And that culture was built, in part, by Aristotle.
+
+There were many philosophers before Aristotle, and you might call some of them scientists or even physicists.  Some philosophers had theories, like that the fundamental elements of the world are fire, earth, wind, and water.  Other philosophers speculated that all of existence is change.  Still other philosophers theorized that there must be some indivisible components of matter, which they called “atoms”.  
+
+But you should notice that none of these theories are mathematical. They don’t lend themselves to specific predictions about what one should observe in any scenarios.  Aristotle’s theory is mathematical, and in fact, here is its equation:
+
+$$
+s=kw
+$$
+where $s$ is speed, $w$ weight, and $k$ is any constant of proportionality.
+
+It’s very simple, but until Aristotle, we didn’t even have theories this rigorous!  It really makes you appreciate just primitive we were until Aristotle marched us a few steps toward modern science.
+
+Being mathematical of course doesn’t make it right.  But being mathematical does allow more precise predictions.  This is precisely why we could so easily test the theory and show it was false.  Imagine testing the atomic theory that the process of dividing matter must eventually reach an indivisible particle.
+
+So although Aristotle’s theory failed, his method of making a mathematical model of physics was more important.  In the next several chapters, we will try to find a better mathematical theory of physics.
+
+
