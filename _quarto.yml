@@ -1,5 +1,9 @@
 project:
   type: website
+  resources: 
+    - "*.py"
+    - "*.ipynb"
+    - "*.toml"
 
 website:
   title: "Calculus from Scratch"
@@ -20,9 +24,7 @@ website:
 
 format:
   html:
-    theme: default
-    css: styles.css
+    theme: styles.scss
     toc: true
 
-
-
+#callout-appearance: minimal
