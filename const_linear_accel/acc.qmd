@@ -1,0 +1,16 @@
+---
+title: "The New Free Fall Hypothesis"
+
+format:
+    html:
+        include-in-header:
+            - header.html
+---
+
+
+
+<py-script src="./acc_main.py"></py-script>
+
+<input type="text" id="3dinput">10,20,30</input>
+<button id="3dplotbutton" py-click="show_plt()" class="py-button">Set camera</button>
+<div id="3dplot"></div>
